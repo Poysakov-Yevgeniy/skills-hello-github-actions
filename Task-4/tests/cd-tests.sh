@@ -1,7 +1,8 @@
 #!/bin/bash
 
-pwd
 
+cd 'Task-4/tests'
+pwd
 g++ ./algorithms-KGood.cpp -o KGood.exe
 
 for ((i=1; i<=3; i++)); do
