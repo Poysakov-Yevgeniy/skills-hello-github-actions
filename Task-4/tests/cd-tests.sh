@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pwd
+
 g++ ./algorithms-KGood.cpp -o KGood.exe
 
 for ((i=1; i<=3; i++)); do
