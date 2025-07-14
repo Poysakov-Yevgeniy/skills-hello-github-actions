@@ -1,6 +1,6 @@
 #!/bin/bash
 
-g++ algorithms-KGood.cpp -o KGood.exe
+g++ ./algorithms-KGood.cpp -o KGood.exe
 
 for ((i=1; i<=3; i++)); do
     test_input=$(head -n 2 "test-${i}.txt")
